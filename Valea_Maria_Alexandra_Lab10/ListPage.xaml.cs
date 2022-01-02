@@ -46,8 +46,5 @@ namespace Valea_Maria_Alexandra_Lab10
 
             listView.ItemsSource = await App.Database.GetListProductsAsync(shopl.ID);
         }
-
     }
-
-
 }
